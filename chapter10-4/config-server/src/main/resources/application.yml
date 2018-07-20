@@ -14,21 +14,28 @@
 server:
   port: 8768
 
+
+
 # remote git
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig
-          searchPaths: respo
-          username: 
-          password:
+          uri: https://github.com/fanhq/sprincloud-config-repo.git
+          searchPaths: config-repo
+          username: 944080287@qq.com
+          password: Sbb2008@
       label: master
-  application:
-    name: config-server
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+management:
+  security:
+    enabled: false
+
+

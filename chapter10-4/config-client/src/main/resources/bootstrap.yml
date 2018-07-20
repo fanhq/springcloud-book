@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
 #      uri: http://localhost:8769
-      fail-fast: true
+     # fail-fast: true
       discovery:
         enabled: true
         serviceId: config-server
@@ -14,8 +14,8 @@ spring:
     port: 5672
     username: guest
     password: guest
-    publisher-confirms: true
-    virtual-host: /
+    #publisher-confirms: true
+    #virtual-host: /
   profiles:
     active: dev
 
