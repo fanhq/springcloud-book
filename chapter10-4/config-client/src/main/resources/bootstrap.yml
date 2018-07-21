@@ -3,12 +3,14 @@ spring:
     name: config-client
   cloud:
     config:
-#      uri: http://localhost:8769
+      #uri: http://127.0.0.1:8002
       fail-fast: true
       discovery:
         enabled: true
         serviceId: config-server
-
+    bus:
+      trace:
+        enabled: true
   rabbitmq:
     host: localhost
     port: 5672
@@ -20,13 +22,13 @@ spring:
     active: dev
 
 server:
-  port: 8764
+  port: 8003
 
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://127.0.0.1:8001/eureka/
 
 management:
   security:
