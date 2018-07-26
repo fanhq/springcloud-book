@@ -11,6 +11,13 @@
 	<name>sleuth</name>
 	<description>Demo project for Spring Boot</description>
 
+    <modules>
+        <module>gateway-service</module>
+        <module>user-service</module>
+        <module>zipkin-server</module>
+        <module>eureka-server</module>
+    </modules>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
