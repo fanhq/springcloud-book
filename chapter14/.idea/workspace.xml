@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77975f87-57ea-43b1-99b2-3b3dc74e7439" name="Default" comment="初始化">
-      <change beforePath="$PROJECT_DIR$/../chapter11-6-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11-6-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter11-6-2/zipkin-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter11-6-2/zipkin-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -479,7 +479,7 @@
       <workItem from="1532497061358" duration="38000" />
       <workItem from="1532497332348" duration="660000" />
       <workItem from="1532576690860" duration="11000" />
-      <workItem from="1532576802985" duration="56000" />
+      <workItem from="1532576802985" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1532481298482</created>
@@ -506,7 +506,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90322000" />
+    <option name="totallyTimeSpent" value="90394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
