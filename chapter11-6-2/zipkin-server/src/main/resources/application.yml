@@ -15,7 +15,7 @@ spring:
     username: guest
     password: guest
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-cloud-zipkin?useUnicode=true&characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/spring-cloud-zipkin?useUnicode=true&characterEncoding=utf8&useSSL=false&useSSL=false
     username: root
     password: mysql
     driver-class-name: com.mysql.jdbc.Driver
