@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85daa533-69d6-4346-8bb9-d9973dde00bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/boot-admin-sample.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/boot-admin-sample.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-client-one.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-client-one.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/eureka-client-two.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/eureka-client-two.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter14/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EurekaClientOneApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EurekaClientOneApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-client-one/src/main/java/com/forezp/EurekaClientOneApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -36,6 +34,63 @@
                 <element signature="e#914#915#0" expanded="true" />
                 <element signature="e#982#983#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurbineServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine-service/src/main/java/com/forezp/TurbineServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="14" />
+              <folding>
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/forezp/AdminServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#899#900#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -139,6 +194,15 @@
               <item name="admin-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forezp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,6 +271,84 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="forezp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forezp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="forezp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chapter12-3" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chapter12-3" type="b2602c69:ProjectViewProjectNode" />
@@ -216,9 +358,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EurekaClientOneApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.AdminServerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -478,6 +620,7 @@
       <workItem from="1532589244538" duration="6666000" />
       <workItem from="1532599521285" duration="1195000" />
       <workItem from="1532656108132" duration="5642000" />
+      <workItem from="1532675153221" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1532656646959</created>
@@ -498,7 +641,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24707000" />
+    <option name="totallyTimeSpent" value="24886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -525,10 +668,9 @@
       <window_info anchor="bottom" id="Run" order="14" weight="0.58347106" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3774584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3774584" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,6 +681,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +696,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -708,13 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="282" column="16" selection-start-line="282" selection-start-column="16" selection-end-line="282" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbine-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -971,31 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbine-service/src/main/java/com/forezp/TurbineServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.4.RELEASE/spring-boot-1.5.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1007,17 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/forezp/AdminServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,6 +1158,53 @@
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#982#983#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine-service/src/main/java/com/forezp/TurbineServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/forezp/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
