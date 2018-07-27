@@ -15,13 +15,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="chapter5-2" target="1.8" />
-      <module name="eureka-client" target="1.5" />
-      <module name="eureka-feign-client" target="1.5" />
-      <module name="eureka-monitor-client" target="1.5" />
-      <module name="eureka-ribbon-client" target="1.5" />
-      <module name="eureka-server" target="1.5" />
-      <module name="eureka-zuul-client" target="1.5" />
+      <module name="chapter9" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-feign-client" target="1.8" />
+      <module name="eureka-monitor-client" target="1.8" />
+      <module name="eureka-ribbon-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-zuul-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
