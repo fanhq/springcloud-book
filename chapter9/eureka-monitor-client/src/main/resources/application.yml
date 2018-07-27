@@ -5,12 +5,12 @@ server:
 security.basic.enabled: false
 turbine:
   aggregator:
-    clusterConfig: default   # Ö¸¶¨¾ÛºÏÄÄĞ©¼¯Èº£¬¶à¸öÊ¹ÓÃ","·Ö¸î£¬Ä¬ÈÏÎªdefault¡£¿ÉÊ¹ÓÃhttp://.../turbine.stream?cluster={clusterConfigÖ®Ò»}·ÃÎÊ
-  appConfig: eureka-ribbon-client,eureka-feign-client  ### ÅäÖÃEurekaÖĞµÄserviceIdÁĞ±í£¬±íÃ÷¼à¿ØÄÄĞ©·şÎñ
+    clusterConfig: default   # Ö¸ï¿½ï¿½ï¿½Ûºï¿½ï¿½ï¿½Ğ©ï¿½ï¿½Èºï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½","ï¿½Ö¸î£¬Ä¬ï¿½ï¿½Îªdefaultï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½http://.../turbine.stream?cluster={clusterConfigÖ®Ò»}ï¿½ï¿½ï¿½ï¿½
+  appConfig: eureka-ribbon-client,eureka-feign-client  # ï¿½ï¿½ï¿½ï¿½Eurekaï¿½Ğµï¿½serviceIdï¿½Ğ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ©ï¿½ï¿½ï¿½ï¿½
   clusterNameExpression: new String("default")
-  # 1. clusterNameExpressionÖ¸¶¨¼¯ÈºÃû³Æ£¬Ä¬ÈÏ±í´ïÊ½appName£»´ËÊ±£ºturbine.aggregator.clusterConfigĞèÒªÅäÖÃÏëÒª¼à¿ØµÄÓ¦ÓÃÃû³Æ
-  # 2. µ±clusterNameExpression: defaultÊ±£¬turbine.aggregator.clusterConfig¿ÉÒÔ²»Ğ´£¬ÒòÎªÄ¬ÈÏ¾ÍÊÇdefault
-  # 3. µ±clusterNameExpression: metadata['cluster']Ê±£¬¼ÙÉèÏëÒª¼à¿ØµÄÓ¦ÓÃÅäÖÃÁËeureka.instance.metadata-map.cluster: ABC£¬ÔòĞèÒªÅäÖÃ£¬Í¬Ê±turbine.aggregator.clusterConfig: ABC
+  # 1. clusterNameExpressionÖ¸ï¿½ï¿½ï¿½ï¿½Èºï¿½ï¿½ï¿½Æ£ï¿½Ä¬ï¿½Ï±ï¿½ï¿½Ê½appNameï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½turbine.aggregator.clusterConfigï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Øµï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  # 2. ï¿½ï¿½clusterNameExpression: defaultÊ±ï¿½ï¿½turbine.aggregator.clusterConfigï¿½ï¿½ï¿½Ô²ï¿½Ğ´ï¿½ï¿½ï¿½ï¿½ÎªÄ¬ï¿½Ï¾ï¿½ï¿½ï¿½default
+  # 3. ï¿½ï¿½clusterNameExpression: metadata['cluster']Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Øµï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eureka.instance.metadata-map.cluster: ABCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ã£ï¿½Í¬Ê±turbine.aggregator.clusterConfig: ABC
 eureka:
   client:
     serviceUrl:
