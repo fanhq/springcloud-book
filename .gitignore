@@ -1,6 +1,7 @@
 /.apt_generated/
 !/.idea/
 /.idea/
+/.idea/*
 /.idea/libraries/
 /*.iml
 /target/
