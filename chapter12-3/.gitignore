@@ -8,3 +8,4 @@
 /data/logs/**
 /application.pid
 node_modules/**
+/logs/
