@@ -1,0 +1,10 @@
+/.apt_generated/
+!/.idea/
+/.idea/
+/.idea/*
+/.idea/libraries/
+/*.iml
+/target/
+/data/logs/**
+/application.pid
+node_modules/**
