@@ -12,12 +12,14 @@ spring:
     mode: HTML5
     encoding: UTF-8
     cache: false
+    prefix: /templates
+    suffix: .html
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/spring-security?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    url: jdbc:mysql://localhost:3306/spring-security?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false
     username: root
-    password: 123456
+    password: mysql
 
   jpa:
     hibernate:
