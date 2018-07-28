@@ -22,7 +22,7 @@ public class UserService implements UserDetailsService {
         /*2.mybatis
             1.自定义CustomUserService实现UserDetailsService接口，重写loadUserByUsername方法
             2.生成用户权限集合List<SimpleGrantedAuthority> authorities
-            3.生成spring自带的UserDetails
+            3.生成spring自带的UserDetails的user用作权限判断
             new org.springframework.security.core.userdetails.User(user.getUsername(),user.getPassword(), authorities);
          */
     }
