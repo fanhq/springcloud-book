@@ -10,7 +10,11 @@
 
     <packaging>pom</packaging>
 
-
+    <modules>
+        <module>eureka-server</module>
+        <module>uaa-service</module>
+        <module>user-service</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
